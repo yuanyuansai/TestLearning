@@ -1,0 +1,125 @@
+2019-10-22 10:33:05.317 [http-nio-8887-exec-8] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 10:36:01.240 [http-nio-8887-exec-10] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 10:38:20.907 [http-nio-8887-exec-2] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 10:48:45.340 [http-nio-8887-exec-4] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 10:48:45.441 [http-nio-8887-exec-5] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 11:03:35.106 [http-nio-8887-exec-7] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 11:03:35.164 [http-nio-8887-exec-8] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 11:04:16.744 [http-nio-8887-exec-10] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 11:10:27.972 [http-nio-8887-exec-2] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 11:10:32.650 [http-nio-8887-exec-4] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 11:10:32.711 [http-nio-8887-exec-5] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 11:12:56.826 [http-nio-8887-exec-7] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 11:12:56.884 [http-nio-8887-exec-8] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 11:16:13.091 [http-nio-8887-exec-10] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 11:16:13.150 [http-nio-8887-exec-1] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 11:16:55.349 [http-nio-8887-exec-3] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 11:16:55.415 [http-nio-8887-exec-4] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 11:35:14.941 [http-nio-8887-exec-9] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 11:35:15.037 [http-nio-8887-exec-10] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 11:42:05.275 [http-nio-8887-exec-5] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 11:42:05.331 [http-nio-8887-exec-6] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 11:43:56.646 [http-nio-8887-exec-8] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 11:43:56.738 [http-nio-8887-exec-9] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 11:44:30.835 [http-nio-8887-exec-1] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 11:44:30.922 [http-nio-8887-exec-2] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 11:44:55.000 [http-nio-8887-exec-4] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 11:44:55.073 [http-nio-8887-exec-5] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 11:48:47.780 [http-nio-8887-exec-9] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 11:51:12.179 [http-nio-8887-exec-1] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 11:51:12.240 [http-nio-8887-exec-2] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 13:30:44.440 [http-nio-8887-exec-4] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 13:30:44.502 [http-nio-8887-exec-5] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 13:30:44.543 [http-nio-8887-exec-6] INFO  com.course.controller.UserManager - cookies验证通过
+2019-10-22 13:30:44.576 [http-nio-8887-exec-6] INFO  com.course.controller.UserManager - 添加用户的数量是：1
+2019-10-22 13:30:47.638 [http-nio-8887-exec-7] INFO  com.course.controller.UserManager - cookies验证通过
+2019-10-22 13:30:47.642 [http-nio-8887-exec-7] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是1
+2019-10-22 13:30:47.686 [http-nio-8887-exec-8] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Could not read JSON document: Can not deserialize value of type int from String "zhangsan": not a valid Integer value
+ at [Source: java.io.PushbackInputStream@5a8440b9; line: 1, column: 51] (through reference chain: com.course.model.User["id"]); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Can not deserialize value of type int from String "zhangsan": not a valid Integer value
+ at [Source: java.io.PushbackInputStream@5a8440b9; line: 1, column: 51] (through reference chain: com.course.model.User["id"])
+2019-10-22 13:30:47.725 [http-nio-8887-exec-9] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Could not read JSON document: Can not deserialize value of type int from String "lisi": not a valid Integer value
+ at [Source: java.io.PushbackInputStream@a849ff; line: 1, column: 50] (through reference chain: com.course.model.User["id"]); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Can not deserialize value of type int from String "lisi": not a valid Integer value
+ at [Source: java.io.PushbackInputStream@a849ff; line: 1, column: 50] (through reference chain: com.course.model.User["id"])
+2019-10-22 13:30:47.754 [http-nio-8887-exec-10] INFO  com.course.controller.UserManager - cookies验证通过
+2019-10-22 13:30:47.759 [http-nio-8887-exec-10] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是8
+2019-10-22 13:32:23.948 [http-nio-8887-exec-2] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 13:32:24.032 [http-nio-8887-exec-3] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 13:32:24.075 [http-nio-8887-exec-4] INFO  com.course.controller.UserManager - cookies验证通过
+2019-10-22 13:32:24.091 [http-nio-8887-exec-4] INFO  com.course.controller.UserManager - 添加用户的数量是：1
+2019-10-22 13:32:27.147 [http-nio-8887-exec-5] INFO  com.course.controller.UserManager - cookies验证通过
+2019-10-22 13:32:27.149 [http-nio-8887-exec-5] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是1
+2019-10-22 13:32:27.199 [http-nio-8887-exec-6] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Could not read JSON document: Can not deserialize value of type int from String "zhangsan": not a valid Integer value
+ at [Source: java.io.PushbackInputStream@7057390b; line: 1, column: 51] (through reference chain: com.course.model.User["id"]); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Can not deserialize value of type int from String "zhangsan": not a valid Integer value
+ at [Source: java.io.PushbackInputStream@7057390b; line: 1, column: 51] (through reference chain: com.course.model.User["id"])
+2019-10-22 13:32:27.232 [http-nio-8887-exec-7] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Could not read JSON document: Can not deserialize value of type int from String "lisi": not a valid Integer value
+ at [Source: java.io.PushbackInputStream@503afa52; line: 1, column: 50] (through reference chain: com.course.model.User["id"]); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Can not deserialize value of type int from String "lisi": not a valid Integer value
+ at [Source: java.io.PushbackInputStream@503afa52; line: 1, column: 50] (through reference chain: com.course.model.User["id"])
+2019-10-22 13:32:27.269 [http-nio-8887-exec-8] INFO  com.course.controller.UserManager - cookies验证通过
+2019-10-22 13:32:27.271 [http-nio-8887-exec-8] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是9
+2019-10-22 13:42:16.089 [http-nio-8887-exec-10] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 13:42:16.150 [http-nio-8887-exec-1] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 13:42:16.190 [http-nio-8887-exec-2] INFO  com.course.controller.UserManager - cookies验证通过
+2019-10-22 13:42:16.207 [http-nio-8887-exec-2] INFO  com.course.controller.UserManager - 添加用户的数量是：1
+2019-10-22 13:42:19.273 [http-nio-8887-exec-3] INFO  com.course.controller.UserManager - cookies验证通过
+2019-10-22 13:42:19.277 [http-nio-8887-exec-3] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是1
+2019-10-22 13:42:19.317 [http-nio-8887-exec-4] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Could not read JSON document: Can not deserialize value of type int from String "zhangsan": not a valid Integer value
+ at [Source: java.io.PushbackInputStream@443686b3; line: 1, column: 51] (through reference chain: com.course.model.User["id"]); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Can not deserialize value of type int from String "zhangsan": not a valid Integer value
+ at [Source: java.io.PushbackInputStream@443686b3; line: 1, column: 51] (through reference chain: com.course.model.User["id"])
+2019-10-22 13:42:19.352 [http-nio-8887-exec-5] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Could not read JSON document: Can not deserialize value of type int from String "lisi": not a valid Integer value
+ at [Source: java.io.PushbackInputStream@369c05d8; line: 1, column: 50] (through reference chain: com.course.model.User["id"]); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Can not deserialize value of type int from String "lisi": not a valid Integer value
+ at [Source: java.io.PushbackInputStream@369c05d8; line: 1, column: 50] (through reference chain: com.course.model.User["id"])
+2019-10-22 13:42:19.384 [http-nio-8887-exec-6] INFO  com.course.controller.UserManager - cookies验证通过
+2019-10-22 13:42:19.386 [http-nio-8887-exec-6] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是10
+2019-10-22 13:44:16.212 [http-nio-8887-exec-8] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 13:44:16.283 [http-nio-8887-exec-9] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 13:44:16.321 [http-nio-8887-exec-10] INFO  com.course.controller.UserManager - cookies验证通过
+2019-10-22 13:44:16.340 [http-nio-8887-exec-10] INFO  com.course.controller.UserManager - 添加用户的数量是：1
+2019-10-22 13:44:19.388 [http-nio-8887-exec-1] INFO  com.course.controller.UserManager - cookies验证通过
+2019-10-22 13:44:19.390 [http-nio-8887-exec-1] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是1
+2019-10-22 13:44:19.433 [http-nio-8887-exec-2] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Could not read JSON document: Can not deserialize value of type int from String "zhangsan": not a valid Integer value
+ at [Source: java.io.PushbackInputStream@3e9df7ff; line: 1, column: 51] (through reference chain: com.course.model.User["id"]); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Can not deserialize value of type int from String "zhangsan": not a valid Integer value
+ at [Source: java.io.PushbackInputStream@3e9df7ff; line: 1, column: 51] (through reference chain: com.course.model.User["id"])
+2019-10-22 13:44:19.468 [http-nio-8887-exec-3] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Could not read JSON document: Can not deserialize value of type int from String "lisi": not a valid Integer value
+ at [Source: java.io.PushbackInputStream@715f571f; line: 1, column: 50] (through reference chain: com.course.model.User["id"]); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Can not deserialize value of type int from String "lisi": not a valid Integer value
+ at [Source: java.io.PushbackInputStream@715f571f; line: 1, column: 50] (through reference chain: com.course.model.User["id"])
+2019-10-22 13:44:19.496 [http-nio-8887-exec-4] INFO  com.course.controller.UserManager - cookies验证通过
+2019-10-22 13:44:19.498 [http-nio-8887-exec-4] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是11
+2019-10-22 13:51:08.030 [http-nio-8887-exec-4] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 13:51:08.089 [http-nio-8887-exec-5] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 13:51:08.128 [http-nio-8887-exec-6] INFO  com.course.controller.UserManager - cookies验证通过
+2019-10-22 13:51:08.160 [http-nio-8887-exec-6] INFO  com.course.controller.UserManager - 添加用户的数量是：1
+2019-10-22 13:51:11.215 [http-nio-8887-exec-7] INFO  com.course.controller.UserManager - cookies验证通过
+2019-10-22 13:51:11.217 [http-nio-8887-exec-7] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是1
+2019-10-22 13:51:11.257 [http-nio-8887-exec-9] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Could not read JSON document: Can not deserialize value of type int from String "zhangsan": not a valid Integer value
+ at [Source: java.io.PushbackInputStream@43777b89; line: 1, column: 51] (through reference chain: com.course.model.User["id"]); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Can not deserialize value of type int from String "zhangsan": not a valid Integer value
+ at [Source: java.io.PushbackInputStream@43777b89; line: 1, column: 51] (through reference chain: com.course.model.User["id"])
+2019-10-22 13:51:11.289 [http-nio-8887-exec-8] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Could not read JSON document: Can not deserialize value of type int from String "lisi": not a valid Integer value
+ at [Source: java.io.PushbackInputStream@51b49b99; line: 1, column: 50] (through reference chain: com.course.model.User["id"]); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Can not deserialize value of type int from String "lisi": not a valid Integer value
+ at [Source: java.io.PushbackInputStream@51b49b99; line: 1, column: 50] (through reference chain: com.course.model.User["id"])
+2019-10-22 13:51:11.326 [http-nio-8887-exec-10] INFO  com.course.controller.UserManager - cookies验证通过
+2019-10-22 13:51:11.328 [http-nio-8887-exec-10] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是12
+2019-10-22 13:52:55.132 [http-nio-8887-exec-2] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 13:52:55.197 [http-nio-8887-exec-3] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 13:52:55.238 [http-nio-8887-exec-4] INFO  com.course.controller.UserManager - cookies验证通过
+2019-10-22 13:52:55.257 [http-nio-8887-exec-4] INFO  com.course.controller.UserManager - 添加用户的数量是：1
+2019-10-22 13:52:58.316 [http-nio-8887-exec-5] INFO  com.course.controller.UserManager - cookies验证通过
+2019-10-22 13:52:58.318 [http-nio-8887-exec-5] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是1
+2019-10-22 13:52:58.365 [http-nio-8887-exec-6] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Could not read JSON document: Can not deserialize value of type int from String "zhangsan": not a valid Integer value
+ at [Source: java.io.PushbackInputStream@5117f38b; line: 1, column: 51] (through reference chain: com.course.model.User["id"]); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Can not deserialize value of type int from String "zhangsan": not a valid Integer value
+ at [Source: java.io.PushbackInputStream@5117f38b; line: 1, column: 51] (through reference chain: com.course.model.User["id"])
+2019-10-22 13:52:58.400 [http-nio-8887-exec-7] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Could not read JSON document: Can not deserialize value of type int from String "lisi": not a valid Integer value
+ at [Source: java.io.PushbackInputStream@5d6c82ac; line: 1, column: 50] (through reference chain: com.course.model.User["id"]); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Can not deserialize value of type int from String "lisi": not a valid Integer value
+ at [Source: java.io.PushbackInputStream@5d6c82ac; line: 1, column: 50] (through reference chain: com.course.model.User["id"])
+2019-10-22 13:52:58.428 [http-nio-8887-exec-9] INFO  com.course.controller.UserManager - cookies验证通过
+2019-10-22 13:52:58.430 [http-nio-8887-exec-9] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是13
+2019-10-22 13:57:56.375 [http-nio-8887-exec-10] WARN  org.springframework.web.servlet.PageNotFound - Request method 'GET' not supported
+2019-10-22 13:58:35.933 [http-nio-8887-exec-3] INFO  com.course.controller.UserManager - cookies验证通过
+2019-10-22 13:58:35.957 [http-nio-8887-exec-3] INFO  com.course.controller.UserManager - 更新数据的条目数为：1
+2019-10-22 14:02:45.128 [http-nio-8887-exec-5] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 14:02:45.182 [http-nio-8887-exec-6] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 14:03:18.939 [http-nio-8887-exec-9] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 14:03:18.988 [http-nio-8887-exec-8] INFO  com.course.controller.UserManager - 查询到的结果是：0
+2019-10-22 14:03:19.102 [http-nio-8887-exec-10] INFO  com.course.controller.UserManager - cookies验证通过
+2019-10-22 14:03:19.124 [http-nio-8887-exec-10] INFO  com.course.controller.UserManager - 更新数据的条目数为：1
+2019-10-22 14:03:21.175 [http-nio-8887-exec-2] INFO  com.course.controller.UserManager - cookies验证通过
+2019-10-22 14:03:21.193 [http-nio-8887-exec-2] INFO  com.course.controller.UserManager - 更新数据的条目数为：1

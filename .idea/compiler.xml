@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Chapter13" />
+        <module name="Chapter12" />
+        <module name="Chapter10" />
+        <module name="Chapter100" />
+        <module name="Chapter110" />
+        <module name="Chapter6" />
+        <module name="Chapter120" />
+        <module name="Chapter5" />
+        <module name="Chapter9" />
+        <module name="Chapter19" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Chapter10" target="8" />
+      <module name="Chapter100" target="1.6" />
+      <module name="Chapter11" target="1.8" />
+      <module name="Chapter110" target="1.8" />
+      <module name="Chapter12" target="1.6" />
+      <module name="Chapter120" target="1.8" />
+      <module name="Chapter13" target="1.8" />
+      <module name="Chapter19" target="1.6" />
+      <module name="Chapter5" target="1.5" />
+      <module name="Chapter6" target="6" />
+      <module name="Chapter9" target="1.8" />
+      <module name="TestLearning" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Chapter10" options="" />
+      <module name="Chapter100" options="" />
+      <module name="Chapter13" options="-extdirs &quot;C:\Program Files\Git\workspace\TestLearning\Chapter13/lib&quot;" />
+      <module name="Chapter19" options="" />
+      <module name="Chapter6" options="" />
+      <module name="Chapter9" options="" />
+    </option>
+  </component>
+</project>
